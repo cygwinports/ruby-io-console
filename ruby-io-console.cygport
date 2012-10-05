@@ -1,0 +1,7 @@
+NAME="ruby-io-console"
+VERSION=0.3
+RELEASE=1
+CATEGORY="Ruby"
+SUMMARY="Ruby console I/O module"
+DESCRIPTION="Add console capabilities to IO instances in Ruby."
+inherit rubygem
