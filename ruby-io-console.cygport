@@ -6,3 +6,7 @@ RELEASE=1
 CATEGORY="Ruby"
 SUMMARY="Ruby console I/O module"
 DESCRIPTION="Ruby module for adding console capabilities to I/O instances."
+
+PKG_NAMES="${NAME} ${NAME}-doc"
+ruby_io_console_CONTENTS=${RUBYGEM_EXTDIR#/}" "${RUBYGEM_INSTDIR#/}" "${RUBYGEM_SPEC#/}
+ruby_io_console_doc_CONTENTS=${RUBYGEM_DOCDIR#/}
