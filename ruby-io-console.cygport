@@ -2,7 +2,7 @@ inherit rubygem
 
 NAME="ruby-io-console"
 VERSION=0.4.2
-RELEASE=1
+RELEASE=2
 CATEGORY="Ruby"
 SUMMARY="Ruby console I/O module"
 DESCRIPTION="Ruby module for adding console capabilities to I/O instances."
